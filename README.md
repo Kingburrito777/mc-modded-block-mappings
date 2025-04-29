@@ -50,6 +50,31 @@ Currently, the project includes **9,663 mappings** and continues to grow as more
    - Map modded blocks to their nearest vanilla counterparts.
    - Save the mappings to `block_mapping/modded_block_map_full.csv`.
 
+### Visualizing Block Embeddings
+1. Run the t-SNE visualization script to create an interactive plot:
+   ```bash
+   python tsne_visualization.py
+   ```
+2. The script will:
+   - Load the mappings from `block_mapping/modded_block_map_full.csv`.
+   - Compute embeddings for modded and vanilla blocks.
+   - Apply t-SNE to reduce embeddings to 2D.
+   - Generate an interactive Plotly scatter plot saved as `visualizations/tsne_block_visualization.html`.
+
+3. **Viewing Visualizations**:
+   - **Interactive Plot**: View the interactive t-SNE visualization hosted on GitHub Pages at:
+     [https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html](https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html)
+     - Hover over points to see block names and explore the clustering of modded and vanilla blocks.
+   - **Static Images**: Preview the t-SNE plots in the repository:
+     - [`visualizations/example1.png`](./visualizations/example1.png): Shows clustering of modded and vanilla blocks.
+     - [`visualizations/example2.png`](./visualizations/example2.png): Highlights embedding distributions.
+   - **Accessing the HTML File Locally** (if GitHub Pages is unavailable):
+     1. Navigate to [`visualizations/tsne_block_visualization.html`](./visualizations/tsne_block_visualization.html) in the repository.
+     2. Click the **"Raw"** button at the top-right to access the raw HTML content.
+     3. Copy the content and save it as an `.html` file locally (e.g., `tsne_block_visualization.html`).
+     4. Open the saved file in a web browser to interact with the visualization.
+     5. Alternatively, download the file directly from the repository and open it in a browser.
+
 ## Example Mappings
 Below are some notable mappings from the generated CSV:
 
