@@ -110,6 +110,10 @@ Due to complex or ambiguous modded block names, some mappings may be less accura
 ## Why `nomic-embed-text`?
 The `nomic-embed-text` model was chosen for its superior performance in capturing semantic relationships between block names compared to other models like BERT. Its embeddings provide more accurate cosine similarity results for this specific use case.
 
+## Statics
+![`visualizations/example1.png`](./visualizations/example1.png)
+![`visualizations/example2.png`](./visualizations/example2.png)
+
 ## Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository.
