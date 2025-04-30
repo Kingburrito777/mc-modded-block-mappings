@@ -66,10 +66,10 @@ Currently, the project includes **9,663 mappings** and continues to grow as more
      [https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html](https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html)
      - Hover over points to see block names and explore the clustering of modded and vanilla blocks.
    - **Static Images**: Preview the t-SNE plots in the repository:
-     - [`visualizations/example1.png`](./visualizations/example1.png): Shows clustering of modded and vanilla blocks.
-     - [`visualizations/example2.png`](./visualizations/example2.png): Highlights embedding distributions.
+     - [`visualizations/example1.png`](./visualization/example1.png): Shows clustering of modded and vanilla blocks.
+     - [`visualizations/example2.png`](./visualization/example2.png): Highlights embedding distributions.
    - **Accessing the HTML File Locally** (if GitHub Pages is unavailable):
-     1. Navigate to [`visualizations/tsne_block_visualization.html`](./visualizations/tsne_block_visualization.html) in the repository.
+     1. Navigate to [`visualizations/tsne_block_visualization.html`](./visualization/tsne_block_visualization.html) in the repository.
      2. Click the **"Raw"** button at the top-right to access the raw HTML content.
      3. Copy the content and save it as an `.html` file locally (e.g., `tsne_block_visualization.html`).
      4. Open the saved file in a web browser to interact with the visualization.
@@ -111,9 +111,12 @@ Due to complex or ambiguous modded block names, some mappings may be less accura
 The `nomic-embed-text` model was chosen for its superior performance in capturing semantic relationships between block names compared to other models like BERT. Its embeddings provide more accurate cosine similarity results for this specific use case.
 
 ## Statics
-![`visualizations/example1.png`](./visualizations/example1.png)
-![`visualizations/example2.png`](./visualizations/example2.png)
+![ex1](./visualization/example1.png)
+![ex2](./visualization/example2.png)
 
+View the interactive t-SNE visualization hosted on GitHub Pages at:
+     [https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html](https://kingburrito777.github.io/mc-modded-block-mappings/tsne_block_visualization.html)
+     
 ## Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository.
