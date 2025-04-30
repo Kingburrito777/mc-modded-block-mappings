@@ -19,7 +19,7 @@ Currently, the project includes **9,663 mappings** and continues to grow as more
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/modded-block-mapping.git
+   git clone https://github.com/Kingburrito777/mc-modded-block-mappings.git
    cd modded-block-mapping
    ```
 2. Install Python dependencies:
